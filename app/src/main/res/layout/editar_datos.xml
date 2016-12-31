@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirma"
+            android:id="@+id/textView"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtfornombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margintextview"
+            android:layout_below="@id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="17dp"
+            android:saveEnabled="true"/>
+        <TextView
+            android:id="@+id/txtforfecha"
+            android:text="@string/fechanaci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margintextview"
+            android:layout_below="@id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="17dp"
+            android:freezesText="true" />
+        <TextView
+            android:id="@+id/txtfortel"
+            android:text="@string/tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margintextview"
+            android:layout_below="@id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="17dp"/>
+        <TextView
+            android:id="@+id/txtformail"
+            android:text="@string/Email"
+            android:saveEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margintextview"
+            android:layout_below="@id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="17dp"/>
+        <TextView
+            android:id="@+id/txtfordescrip"
+            android:text="@string/Descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margintextview"
+            android:layout_below="@id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="17dp"/>
+
+        <Button
+            android:id="@+id/botonvolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme ="@style/botoncool"
+            android:text="@string/EditBtn"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

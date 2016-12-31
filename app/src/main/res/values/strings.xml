@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Contactos Dev.IO</string>
+    <string name="autorSnackBar">Dev. Fernando Alfaro</string>
+    <string name="Contacto">Contacto</string>
+    <string name="hintnombre">Nombre Completo</string>
+    <string name="btnfecha">Seleccionar Fecha Nacimiento</string>
+    <string name="hinttelefono">Télefono</string>
+    <string name="hintEmail">Correo Electronico</string>
+    <string name="hintDescripcion">Descripcion Contacto</string>
+    <string name="ultimo">Siguiente</string>
+    <string name="EditBtn">Editar Datos</string>
+    <string name="confirma">CONFIRMAR DATOS</string>
+    <string name="fechanaci">Fecha Nacimiento: </string>
+    <string name="tel">Telefono:</string>
+    <string name="Email">Email:</string>
+    <string name="Descripcion">Descripcion:</string>
+</resources>
